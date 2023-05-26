@@ -1,0 +1,85 @@
+.Flex
+  {
+    display: flex;
+    justify-content: right;
+    text-transform: uppercase;
+    margin: 0.7rem;
+  }
+  .Flex div
+  {
+    align-self: center;
+    margin: 0.2rem ;
+  }
+  /* body {
+    text-align: center;
+  } */
+  .dropzone-div {
+    text-align: center;
+    padding: 20px;
+    border: 3px grey dashed;
+    width: 100%;
+    background-color: gainsboro ;
+    color:black;
+    margin: auto;
+  }
+  /* Removes the clear button from date inputs */
+input[type="date"]::-webkit-clear-button {
+  display: none;
+}
+
+/* Removes the spin button */
+input[type="date"]::-webkit-inner-spin-button { 
+  display: none;
+}
+
+/* Always display the drop down caret */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  color: black;
+}
+
+/* A few custom styles for date inputs */
+input[type="date"] {
+  appearance: none;
+  -webkit-appearance: none;
+  color: black;
+  font-family: "Helvetica", arial, sans-serif;
+  font-size: 18px;
+  border:1px solid #ecf0f1;
+  background:white;
+  padding:5px;
+  display: inline-block !important;
+  visibility: visible !important;
+}
+
+input[type="date"], focus {
+  color: black;
+  box-shadow: none;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+}
+.underline {
+  border-bottom: 1px solid #dee2e6;
+  margin: 5px; /* Optional: Add some spacing between the underline and the elements */
+}
+.spinner
+{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  /* height: 20%; */
+  /* width: 28%; */
+  display: flex;
+  flex-direction: column;
+  /* padding: 8px; */
+  align-items: center;
+}
+.solar
+{
+ font-weight: bolder;
+ color: black;
+}
+.ladder
+{
+  font-weight: bolder;
+  color: rgb(13, 176, 226);
+}
